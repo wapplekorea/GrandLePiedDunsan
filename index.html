@@ -69,7 +69,7 @@
     document.addEventListener('keydown',e=>{if(e.key==='Escape') modal.classList.remove('open')});
   </script>
   <script>
-    const CONSULT_FORM_ENDPOINT = ''; // Google Apps Script 웹 앱 URL 입력
+    const CONSULT_FORM_ENDPOINT = 'https://script.google.com/macros/s/AKfycbzXiCO-C1RmUXb96X-Cx8bluQzdhWhGZDrT5ECLGosPDD4_sX8irZmu4pZ3veovgEOa/exec';
     document.querySelectorAll('.consult-form').forEach(form=>{
       form.addEventListener('submit', async e=>{
         e.preventDefault();
